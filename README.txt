@@ -1,5 +1,13 @@
-Within the training scripts directory, we provide a dedicated training script for each data modality, namely: ① a standalone network for text, ② a standalone network for grayscale images, ③ a standalone network for color images, ④ a standalone network (adapted for audio) for audio, and ⑤ a Reformer-based approach for text.
+The `training_scripts` directory contains a dedicated training script for each data modality:
 
-The data folder contains all raw files used in this study, encompassing text, images, and audio. Please note that the copyright of the text and audio materials remains with their original creators; these data are included solely as illustrative examples and are not intended for any commercial use. All image files were captured by the authors using personal mobile phones, and any individuals who may appear in the images have provided their consent for the use of these images in the present study.
+1. A standalone network for text;
+2. A standalone network for grayscale images;
+3. A standalone network for color images;
+4. An audio-specific standalone network;
+5. A Reformer-based model for text.
 
-base_shifter.py is the script for processing DNA sequences (encoding / decoding) using the base shifter. Note that both the input and the output of the script consist exclusively of DNA sequences comprising the uppercase letters A, C, G, and T; no other characters are permitted.
+The QIA3 model for images is documented separately.
+
+The `data` directory contains the raw files used in this study, including text, image, and audio files. Copyright in the text and audio materials remains with their original creators. These files are provided solely as illustrative examples and are not intended for commercial use. The authors captured all image files using personal mobile phones. Any identifiable individuals shown in the images consented to their use in this study.
+
+`base_shifter.py` encodes and decodes DNA sequences using the base-shifter method. Both the input and output must consist exclusively of uppercase `A`, `C`, `G`, and `T` characters. No other characters are permitted.
