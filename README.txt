@@ -2,4 +2,4 @@ Within the training scripts directory, we provide a dedicated training script fo
 
 The data folder contains all raw files used in this study, encompassing text, images, and audio. Please note that the copyright of the text and audio materials remains with their original creators; these data are included solely as illustrative examples and are not intended for any commercial use. All image files were captured by the authors using personal mobile phones, and any individuals who may appear in the images have provided their consent for the use of these images in the present study.
 
-Within the base_shifter directory, we provide the script for processing DNA sequences (encoding / decoding) using the base shifter. Note that both the input and the output of the script consist exclusively of DNA sequences comprising the uppercase letters A, C, G, and T; no other characters are permitted.
+base_shifter.py is the script for processing DNA sequences (encoding / decoding) using the base shifter. Note that both the input and the output of the script consist exclusively of DNA sequences comprising the uppercase letters A, C, G, and T; no other characters are permitted.
